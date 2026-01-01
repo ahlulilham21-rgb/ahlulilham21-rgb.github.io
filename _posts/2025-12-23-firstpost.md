@@ -12,10 +12,10 @@ Alih-alih terlarut dalam terka-menerka yang tiada berujung, lebih baik aku menga
 
 Akhirnya aku memutuskan untuk membuat website statis menggunakan Static Site Generator bernama jekyll. sebuah alat untuk membuat website statis yang menurutku tidak terlalu sulit untuk dipelajari apalagi sebagai orang yang keterampilannya minim. jekyll memiliki dokumentasi yang baik, ada tutorial singkat sehingga memudahkan proses belajar dan pemecahan masalah. kalau mentok tinggal searching atau buka forum dan bertanya. intinya aku menikmati setiap setiap proses tanpa khawatir dengan error.
 
-Ada kepuasan tersendiri ketika membangun blog ini menggunakan jekyll. Rasa puas ketika melihat kode-kode yang saya tulis menjelma menjadi laman yang bisa kamu baca sekarang ini. membuat sesuatu seperti proyek pribadi macam ini adalah hal yang sangat menyenangkan, selain itu memulai sebuah projek pribadi seperti ini adalah sebuah cara paling efektif buat belajar sesuatu.
+Ada kepuasan tersendiri ketika membangun blog ini menggunakan jekyll. Rasa puas ketika melihat kode-kode yang aku tulis menjelma menjadi laman yang bisa kamu baca sekarang ini. membuat sesuatu seperti proyek pribadi macam ini adalah hal yang sangat menyenangkan, selain itu memulai sebuah projek pribadi seperti ini adalah sebuah cara paling efektif buat belajar sesuatu.
 
 Kedepanya aku ingin ruang ini menjadi tempatku mencatat perjalanku belajar sesuatu, hal-hal menarik yang aku temui, atau mungkin sekedar hal-hal acak yang terlintas dibenakku.
 
-Paling tidak intinya, walaupun sekarang saya masih bingung mau kerja apa dan kemana hidup ini akan membawaku, paling tidak hari ini aku tahu satu hal: **Aku sudah menulis**
+Paling tidak intinya, walaupun sekarang aku masih bingung mau kerja apa dan kemana hidup ini akan membawaku, paling tidak hari ini aku tahu satu hal: **Aku sudah menulis**
 
 Terimakasih buat siapapun yang sudah mampir di tulisan pertama blog ini. apa kamu menganggur juga?, sedang belajar sesuatu hal baru?, atau memulai lagi hal projek yang mangkrak? feel free to let me know.
