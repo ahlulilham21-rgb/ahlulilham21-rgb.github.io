@@ -1,0 +1,21 @@
+<main class="md:mt-8 px-0 mx-auto">
+  {% assign avatar_url = site.avatar | default: null %}
+<div class="flex flex-col md:flex-row items-center p-4 text-stone-500 dark:text-stone-200">
+  <div class="space-x-10 flex-wrap text-left">
+    <h1 class="text-lg md:text-2xl font-bold">
+      {{ site.title }}
+    </h1>
+    <small class="text-sm md:text-base italic">
+      "{{ site.tagline }}"
+    </small>
+  </div>
+  <div class="flex">
+    <img class="h-auto w-32 md:w-48 rounded-full object-cover"
+    src="{{ avatar_url }}" alt="Profile Photo">
+  </div>
+</div>
+
+<nav class="item-center text-center mt-7 pb-4 text-base md:text-lg">
+  {% include nav_links.html %}
+</nav>
+</main>

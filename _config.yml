@@ -1,0 +1,43 @@
+destination: _site
+title: Ilham Ahlul Fadhli
+tagline: aku mungkin tak pernah kenal dirimu tapi kau bisa baca tulisanku
+permalink: /post/:title/
+excerpt_separator: <!--more-->
+avatar: /assets/images/profile_pic.jpg
+
+tailwindcss:
+  css_path: "./_tailwind.css"
+
+pagination:
+  enabled: true
+  per_page: 5
+  sort_reverse: true
+  trail:
+    before: 3
+    after: 3
+
+tag_page_layout: tag_page
+tag_page_dir: tags
+
+author: Ilham Ahlul fadhli
+# url: not yet have
+# logo: not yet have
+# social:
+  #name: not included yet
+  #links:
+#
+ 
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+include:
+  - _pages
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - bin
+  - LICENSE
+  

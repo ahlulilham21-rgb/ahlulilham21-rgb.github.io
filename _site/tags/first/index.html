@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang=" en-US">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title> - Ilham Ahlul Fadhli</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/syntax-highlighting.css">
+</head>
+
+<body class="m-auto max-w-2xl p-10 font-mono bg-stone-100 dark:bg-neutral-800 dark:text-white-900">
+  <main class="md:mt-8 px-0 mx-auto">
+  
+<div class="flex flex-col md:flex-row items-center p-4 text-stone-500 dark:text-stone-200">
+  <div class="space-x-10 flex-wrap text-left">
+    <h1 class="text-lg md:text-2xl font-bold">
+      Ilham Ahlul Fadhli
+    </h1>
+    <small class="text-sm md:text-base italic">
+      "aku mungkin tak pernah kenal dirimu tapi kau bisa baca tulisanku"
+    </small>
+  </div>
+  <div class="flex">
+    <img class="h-auto w-32 md:w-48 rounded-full object-cover"
+    src="/assets/images/profile_pic.jpg" alt="Profile Photo">
+  </div>
+</div>
+
+<nav class="item-center text-center mt-7 pb-4 text-base md:text-lg">
+  <nav class="my-2 text-l md:text-base md:tracking-widest font-normal font-mono text-stone-700 dark:text-gray-50">
+
+  <a href="/" class="pr-2 hover:underline decoration-2 underline-offset-4 hover:decoration-rose-900"> 
+    Home
+  </a>
+
+  <a href="/posts.html" class="pr-2 hover:underline decoration-2 underline-offset-4 hover:decoration-rose-900"> 
+    Posts
+  </a>
+
+  <a href="/about.html" class="pr-2 hover:underline decoration-2 underline-offset-4 hover:decoration-rose-900"> 
+    About
+  </a>
+
+  <a href="/portofolio.html" class="pr-2 hover:underline decoration-2 underline-offset-4 hover:decoration-rose-900"> 
+    Portofolio
+  </a>
+
+</nav>
+
+</nav>
+</main>
+
+  <h2 class="mt-4 mt-0.5 font-bold text-xl text-center pb-4 text-stone-500 dark:text-stone-300">
+  Posts tagged with 'first'
+</h2>
+  <ul>
+  
+  <li>
+      
+  <a class="underline decoration-2 underline-offset-2 text-xl font-bold text-stone-600 dark:text-stone-200" 
+      href="/post/firstpost/">lorem ipsum</a>
+      <time class="text-md pl-1 text-stone-500 italic" datetime="2025-12-23">
+    <a href="/post/firstpost/">December 23, 2025</a>
+  </time> 
+  <div class="text-lg text-stone-500 dark:text-stone-200">this is my first post</div>
+  
+    <a href="/tags/first"  class="underline decoration-2 underline-offset-2 inline-block no-prose">
+  <span class="underline text-gray-500 dark:text-gray-400 text-sm font-normal">
+    #first
+  </span>
+</a>
+
+  
+    <a href="/tags/post"  class="underline decoration-2 underline-offset-2 inline-block no-prose">
+  <span class="underline text-gray-500 dark:text-gray-400 text-sm font-normal">
+    #post
+  </span>
+</a>
+
+  
+
+  </li>
+
+</ul>
+
+  <footer class="py-10 max-w-2xl mx-auto">
+  <p class="text-center text-sm text-stone-500 dark:text-stone-300">
+    Terimakasih sudah mampir ke sudut kecil ini.
+  </p>
+  <p class="text-center text-sm text-stone-500 dark:text-stone-300">
+    &copy; 2025 
+    Ilham Ahlul Fadhli</p>
+    <p class="text-center text-sm text-stone-500 dark:text-stone-300">
+    Powered by <a href="https://jekyllrb.com" class="font-bold">jekyll</a> and <a href="https://github.com/vormwald/jekyll-blahg" class="font-bold">jekll-blahg</a> theme <3
+  </p>
+</footer>
+
+
+  <script>
+    let colors = ["#004281", "#B22222", "4F4D36", "4D364F", "394F36"];
+
+    function getRandomColor() {
+      return colors[Math.floor(Math.random() * colors.length)];
+    }
+
+    function setRandomLinkColor() {
+      Array.from(document.getElementsByTagName("a")).forEach((e) => {
+        e.style.textDecorationColor = getRandomColor();
+      });
+    }
+
+    function setColorHoverListener() {
+      Array.from(document.querySelectorAll("a, button")).forEach((e) => {
+        e.addEventListener("mouseover", setRandomLinkColor);
+      });
+    }
+
+    (function () {
+      setRandomLinkColor();
+      setColorHoverListener();
+    })();
+  </script>
+</body>
+
+</html>

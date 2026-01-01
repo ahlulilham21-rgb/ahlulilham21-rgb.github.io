@@ -1,0 +1,23 @@
+---
+layout: baseof
+---
+
+<div class="prose prose-base md:prose font-normal dark:prose-invert">
+  {{content}}
+</div>
+
+<h2 class="mt-12 pb-4 text-center text-xl font-bold text-stone-500 dark:text-stone-300">
+  Here's my most recent posts
+</h2>
+<ul>
+  {% for post in site.posts limit:3 %}
+  <li class="text-base list-inside pb-8">
+    {% include post_link.html post=post %}
+  </li>
+  {% endfor %}
+  <li class="hidden only:block italic py-4 text-lg text-neutral-400 dark:text-neutral-50">
+    Coming soon!
+  </li>
+</ul>
+
+{% include site_tags.html %}
