@@ -6,3 +6,5 @@
   link: /about.html
 - name: Portofolio
   link: /portofolio.html
+- name: Contact
+  link: mailto:ilhamaf@duck.com
