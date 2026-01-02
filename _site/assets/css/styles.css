@@ -217,15 +217,6 @@
   .static {
     position: static;
   }
-  .sticky {
-    position: sticky;
-  }
-  .top-0 {
-    top: calc(var(--spacing) * 0);
-  }
-  .z-50 {
-    z-index: 50;
-  }
   .col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -329,6 +320,9 @@
       padding: 0.5rem;
       font-size: 1.1rem;
     }
+  }
+  .m-2 {
+    margin: calc(var(--spacing) * 2);
   }
   .m-auto {
     margin: auto;
@@ -983,6 +977,9 @@
   .flex {
     display: flex;
   }
+  .grid {
+    display: grid;
+  }
   .hidden {
     display: none;
   }
@@ -1006,9 +1003,6 @@
   }
   .w-auto {
     width: auto;
-  }
-  .w-full {
-    width: 100%;
   }
   .max-w-2xl {
     max-width: var(--container-2xl);
@@ -1059,6 +1053,9 @@
   .bg-stone-200 {
     background-color: var(--color-stone-200);
   }
+  .bg-stone-600 {
+    background-color: var(--color-stone-600);
+  }
   .object-cover {
     object-fit: cover;
   }
@@ -1085,6 +1082,9 @@
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
+  }
+  .py-5 {
+    padding-block: calc(var(--spacing) * 5);
   }
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
@@ -1840,6 +1840,12 @@
     @media (width >= 48rem) {
       --tw-tracking: var(--tracking-widest);
       letter-spacing: var(--tracking-widest);
+    }
+  }
+  .lg\:text-lg {
+    @media (width >= 64rem) {
+      font-size: var(--text-lg);
+      line-height: var(--tw-leading, var(--text-lg--line-height));
     }
   }
   .dark\:border-gray-50 {
