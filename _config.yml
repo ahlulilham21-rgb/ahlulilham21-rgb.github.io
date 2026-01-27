@@ -1,6 +1,7 @@
 destination: _site
 title: Ilham Ahlul Fadhli
 tagline: aku mungkin tak pernah kenal dirimu tapi kau bisa baca tulisanku
+description: mungkin kamu punya rasa penasaran sama sepertiku 
 permalink: /post/:title/
 excerpt_separator: <!--more-->
 avatar: /assets/images/profile_pic.jpg
