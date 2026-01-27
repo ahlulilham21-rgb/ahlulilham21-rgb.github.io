@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-01-27T13:20:57+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ilham Ahlul Fadhli</title><subtitle>mungkin kamu punya rasa penasaran sama sepertiku</subtitle><author><name>Ilham Ahlul fadhli</name></author><entry><title type="html">Mencoba Docker Untuk Pertama Kali Dengan Memasang Wordpress Di Local Server</title><link href="http://localhost:4000/post/wpdocker/" rel="alternate" type="text/html" title="Mencoba Docker Untuk Pertama Kali Dengan Memasang Wordpress Di Local Server" /><published>2026-01-27T00:00:00+07:00</published><updated>2026-01-27T00:00:00+07:00</updated><id>http://localhost:4000/post/wpdocker</id><content type="html" xml:base="http://localhost:4000/post/wpdocker/"><![CDATA[<h2 id="pembukaan">Pembukaan</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-01-27T18:29:40+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ilham Ahlul Fadhli</title><subtitle>mungkin kamu punya rasa penasaran sama sepertiku</subtitle><author><name>Ilham Ahlul fadhli</name></author><entry><title type="html">Mencoba Docker Untuk Pertama Kali Dengan Memasang Wordpress Di Local Server</title><link href="http://localhost:4000/post/wpdocker/" rel="alternate" type="text/html" title="Mencoba Docker Untuk Pertama Kali Dengan Memasang Wordpress Di Local Server" /><published>2026-01-27T00:00:00+07:00</published><updated>2026-01-27T00:00:00+07:00</updated><id>http://localhost:4000/post/wpdocker</id><content type="html" xml:base="http://localhost:4000/post/wpdocker/"><![CDATA[<h2 id="pembukaan">Pembukaan</h2>
 <p>Selama ini, setiap kali ingin membuat proyek WordPress baru, biasanya saya selalu  menggunakan AMP stack alias Apache Mysql dan PHP di sistem operasi linux favorit saya. Tapi belakangan ini saya sering mendengar istilah Docker. katanya, Docker bisa membuat alur development kita lebih rapi dan konsisten. Dengan niat memenuhi rasa penasaran sekaligus belajar hal baru saya memutuskan untuk mencoba. Di artikel ini, saya akan berbagi pengalaman pertama saya menjalankan WordPress lewat Docker di local server. prosesnya cukup cepat dan tidak memakan waktu terlalu lama.</p>
 
 <h2 id="instalasi-docker">Instalasi Docker</h2>
@@ -7,7 +7,11 @@
 <h2 id="pemasangan-wordpress-melalui-docker-compose">Pemasangan WordPress melalui Docker-Compose</h2>
 <p>Jadi bagaimana apakah kalian sudah berhasil memasang docker dalam mesin kalian?</p>
 
-<p>Kalau sudah mari kita lanjut ke langkah selanjutnya, yakni menggunakan docker untuk menjalankan aplikasi WordPress. hal pertama yang harus kalian lakukan adalah membuat direktori atau folder buat proyek WordPress kalian.</p>
+<p>Kalau sudah mari kita lanjut ke langkah selanjutnya, yakni konfigurasi agar docker bisa menjalankan WordPress. sebelumnya saya mau singgung sedikit bagaimana teknologi ini bekerja. docker adalah sebuah lingkungan development virtual dimana kalian bisa menjalankan sebuah program beserta komponen pendukungnya secara terisolasi, hal ini memastikan program/konfigurasi yang dibuat dapat berjalan secara konsisten disetiap jenis mesin. jadi ketika kita membuat wordpress di laptop kita kita bisa mengemasnya dan menjalankanya di komputer lain.</p>
+
+<p>Untuk menjalankan wordpress sebagai docker kita akan menggunakan sebuah tool namanya docker compose, sebuah alat untuk menjalankan aplikasi multi container. Melalui tool ini kita akan menulis sebuah konfigurasi melalui file berekstensi YAML. Kemudian, melalui satu perintah kita akan membuat dan memulai aplikasinya dari file konfigurasi tersebut.</p>
+
+<p>Tanpa basa-basi lagi mari kita mulai tutorialnya:</p>
 
 <ol>
   <li>Buka Terminal/CMD kalain dan buat folder baru untuk wadah proyek kalian.
@@ -59,12 +63,19 @@ volumes:
 </code></pre></div></div>
 
 <ol>
-  <li>kalau sudah berjalan kita tinggal buka wordpress yang sudah kita pasang melalui browser. kalian tinggal mengetik <code class="language-plaintext highlighter-rouge">localhost:8080</code> di kolom link pada browser kalian, <em>voila</em> wordpress sudah terpasang di mesin kalian.</li>
+  <li>Kalau aplikasinya sudah berjalan, buka browser kalian dan buka link <code class="language-plaintext highlighter-rouge">localhost:8080</code>, <em>voila</em> wordpress sudah terpasang di mesin kalian.</li>
 </ol>
 
+<p>Kalian akan disambut oleh form Seperti ini:</p>
+
 <p><img src="/assets/images/dockerwp.webp" alt="My image" loading="lazy" />
-<em>My image</em></p>
-<h2 id="penutup">Penutup</h2>]]></content><author><name>Ilham Ahlul fadhli</name></author><category term="learning-note," /><category term="small-project" /><summary type="html"><![CDATA[sebuah panduan bagi siapapun yang ingin memasang wordpress menggunakan continer docker]]></summary></entry><entry><title type="html">Firstblood</title><link href="http://localhost:4000/post/firstpost/" rel="alternate" type="text/html" title="Firstblood" /><published>2025-12-23T00:00:00+07:00</published><updated>2025-12-23T00:00:00+07:00</updated><id>http://localhost:4000/post/firstpost</id><content type="html" xml:base="http://localhost:4000/post/firstpost/"><![CDATA[<p>Sudah lama sekali terbesit dibenakku keinginan untuk membuat website/blog pribadi. sebuah ruang disudut internet yang aku miliki sendiri, aku bangun sendiri, aku tulis sendiri.</p>
+<em>WordPress in my machine</em></p>
+
+<p>kalian tinggal isi form tersebut lalu ikuti instruksinya untuk menyelesaikan proses setupnya. setelah selesai kalian tinggal login dan selamat ngoprek ria..</p>
+
+<h2 id="penutup">Penutup</h2>
+
+<p>Sekian postingan kali ini semoga kalian berhasil. tulisan ini jauh dari kata sempurna jadi kalau ada pertanyaan dan masukan feel free to let me know..</p>]]></content><author><name>Ilham Ahlul fadhli</name></author><category term="learning-note," /><category term="small-project" /><summary type="html"><![CDATA[sebuah panduan bagi siapapun yang ingin memasang wordpress menggunakan continer docker]]></summary></entry><entry><title type="html">Firstblood</title><link href="http://localhost:4000/post/firstpost/" rel="alternate" type="text/html" title="Firstblood" /><published>2025-12-23T00:00:00+07:00</published><updated>2025-12-23T00:00:00+07:00</updated><id>http://localhost:4000/post/firstpost</id><content type="html" xml:base="http://localhost:4000/post/firstpost/"><![CDATA[<p>Sudah lama sekali terbesit dibenakku keinginan untuk membuat website/blog pribadi. sebuah ruang disudut internet yang aku miliki sendiri, aku bangun sendiri, aku tulis sendiri.</p>
 
 <p>Keinginan itu aku biarkan tenggelam begitu saja ditengah hiruk pikuk kehidupan kampus, sampai akhirnya di akhir tahun 2025 tepatnya pasca mentas dari kampus keinginan itu muncul kembali ditengah kesibukanku sebagai pengangguran yang tengah kebingungan mau kerja apa, mau mengembangkan skill apa, dan sesekali menerka kemana kehidupan ini akan membawaku.</p>
 
